@@ -192,7 +192,10 @@ jobs:
             mkdir -p ~/.mix
             cp plts/dialyxir*.plt ~/.mix/ || true
 
-      - run: mix dialyzer --plt
+      - run:
+          name: Update PLT
+          command: mix dialyzer --plt
+          no_output_timeout: 30m
 
       - run:
           name: Pack PLT cache
