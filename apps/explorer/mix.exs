@@ -97,7 +97,7 @@ defmodule Explorer.Mixfile do
       {:plug_cowboy, "~> 1.0", only: :test},
       {:sobelow, ">= 0.7.0", only: [:dev, :test], runtime: false},
       {:timex, "~> 3.0"},
-      {:timex_ecto, "~> 3.2.1"}
+      {:timex_ecto, "~> 3.0"}
     ]
   end
 
