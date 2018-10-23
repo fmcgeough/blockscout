@@ -96,7 +96,7 @@ defmodule Explorer.Mixfile do
       # bypass optional dependency
       {:plug_cowboy, "~> 1.0", only: :test},
       {:sobelow, ">= 0.7.0", only: [:dev, :test], runtime: false},
-      {:timex, "~> 3.1.24"},
+      {:timex, "~> 3.0"},
       {:timex_ecto, "~> 3.2.1"}
     ]
   end

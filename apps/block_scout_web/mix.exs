@@ -102,7 +102,7 @@ defmodule BlockScoutWeb.Mixfile do
       {:prometheus_process_collector, "~> 1.3"},
       {:qrcode, "~> 0.1.0"},
       {:sobelow, ">= 0.7.0", only: [:dev, :test], runtime: false},
-      {:timex, "~> 3.1.24"},
+      {:timex, "~> 3.0"},
       {:timex_ecto, "~> 3.2.1"},
       {:wallaby, "~> 0.20", only: [:test], runtime: false},
       {:wobserver, "~> 0.1.8"}
